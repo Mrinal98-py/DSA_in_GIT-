@@ -1,1 +1,3 @@
-print("commit to git")
+print("learn git")
+print("learn git")
+print("learn git")
