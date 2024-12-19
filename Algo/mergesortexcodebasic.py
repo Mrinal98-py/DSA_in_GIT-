@@ -31,8 +31,8 @@ def merge_two_sorted_array(left, right, key):
     return sorted_list
 
 elements = [
-    { 'name': 'vedanth', 'age': 17, 'time_hours': 1},
-    { 'name': 'rajab', 'age': 12, 'time_hours': 3},
+    { 'name': 'Mrinal', 'age': 17, 'time_hours': 1},
+    { 'name': 'XY', 'age': 12, 'time_hours': 3},
     { 'name': 'vignesh', 'age': 21, 'time_hours': 2.5},
     { 'name': 'chinmay', 'age': 24, 'time_hours': 1.5},
 ]
