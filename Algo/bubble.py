@@ -15,3 +15,8 @@ def bubble(arr):
 arr = [223,43,43,46,5,34,34,4]
 print(bubble(arr))            
     
+"""
+n^2  
+2 loop i,j
+no recursion
+"""
