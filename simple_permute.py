@@ -14,8 +14,9 @@
 
 
 def permute(string):
-    for i in range(len(string)):
+    for i in range(len(string)): 
         
+    
 
 
     

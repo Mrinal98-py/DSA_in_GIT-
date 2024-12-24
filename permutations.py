@@ -12,6 +12,7 @@ def generate_permutations(string):
     s = list(string)
     permute(s, 0, n - 1)
 
+# git update
 # Example usage
 string = "ABC"
 generate_permutations(string)
