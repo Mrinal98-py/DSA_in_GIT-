@@ -15,8 +15,6 @@ def bubble(arr):
 arr = [223,43,43,46,5,34,34,4]
 print(bubble(arr))            
     
-"""
-n^2  
-2 loop i,j
-no recursion
-"""
+# Time complexity: O(n^2)  
+# Uses 2 nested loops with i,j indices
+# Iterative implementation (no recursion)
