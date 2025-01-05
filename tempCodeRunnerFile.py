@@ -1,2 +1,1 @@
-return True
-# else : return False
+and nums[i] + 1 == 1
