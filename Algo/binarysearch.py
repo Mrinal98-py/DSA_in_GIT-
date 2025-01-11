@@ -1,21 +1,21 @@
-def search(arr,key):
+def search(nums,target):
     
     lower = 0
-    upper = len(arr)-1
+    upper = len(nums)-1
     
     while lower <= upper:
         mid = (lower + upper) // 2
         
-        if arr[mid] == key:
-            print("key Found",key,"index",mid + 1)
+        if nums[mid] == target:
+            print("target Found",target,"index",mid + 1)
             break
         else:
-            if arr[mid] < key:
+            if nums[mid] < target:
                 lower = mid+1
             else:
                 upper = mid-1
                 
-arr = [0,1,2,3,4,5,6,7,8]
+nums = [0,1,2,3,4,5,6,7,8]
 
-search(arr,4)
+search(nums,4)
     
