@@ -9,13 +9,10 @@ cookies.sort()
 i = 0
 j = 0
 
-while j<=len(cookies) and i<=len(child):
-    if cookies[j] >= child[i]:
-        flag+=1
+while j< len(cookies) and i<len(child):
+    if cookies[j] >= child[i] :
         i+=1
-        if j > len(cookies) and j> len(cookies):
-            break
-    else:
-        j+=1
+    
+    j+=1
  
-print(flag)
+print(i)
