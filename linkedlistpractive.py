@@ -1,17 +1,20 @@
-class hownodewilllooklike:
-    def __init__(self,data):
+class Node:
+    def __init__(self, data):
         self.data = data
         self.next = None
-    
+        
 class linkedlist:
-    def __init__(self):
-        self.head = None   #head will be empty in starting 
-        
-        def insert(self, data):
-            new_node = hownodewilllooklike(data)
-            
-            if not self.head:
-                self.head = new_node
-        
-        
+    def linkedlistconst(self, arr):
+        self.head = Node(arr[0])
+        curr = self.head
+        for i in range(1,len(arr)):
+            curr.next = Node(arr[i])
+            curr = curr.next
     
+        print(self.head)
+        return self.head
+
+
+if __name__ == '__main__':
+    arr = [2,3,4,5]
+    ob = 
