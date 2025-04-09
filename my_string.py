@@ -4,6 +4,7 @@ from docx2pdf import convert
 import os
 import threading
 
+
 class DocToPDFConverter:
     def __init__(self):
         self.window = tk.Tk()
